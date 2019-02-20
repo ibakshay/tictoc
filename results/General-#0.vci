@@ -1,0 +1,28 @@
+file 60436 1550344250                                           
+version 2
+run General-0-20190216-20:10:45-16248
+attr configname General
+attr datetime 20190216-20:10:45
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network TicToc
+attr processid 16248
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param TicToc.tic.delayTimeTic "uniform(500ms, 3000ms)"
+param TicToc.toc.delayTimeToc "uniform(500ms, 2000ms)"
+param TicToc.tic.counter 500
+
+vector 0 TicToc.toc TocDelayVector ETV
+vector 1 TicToc.tic TicDelayVector ETV
+vector 2 TicToc.tic RTTVector ETV
+0	627 19942 1 1997 2 3489.043438814692 500 0.501387230819 1.998587072361 606.32295142137 827.88141926514
+1	20569 19951 3 1999 5.507721540285 3492.542491290597 500 0.501934053143 2.996810228913 889.16730509314 1830.356512805
+2	40520 19914 4 1996 7.727769209072 3487.043438814692 499 5.215825470165 8.890699918033 3487.0434388147 24695.529841539
+
